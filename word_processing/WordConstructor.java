@@ -50,6 +50,8 @@ public class WordConstructor implements Settings{
 	 * 			  binary representation an error is thrown
 	 * 
 	 * @see local/alphanumeric_characters
+	 * @implNote assumes alphanumeric_characters contain rectangular arrays 
+	 *		of TRUE and FALSE integers
 	 */
 	public WordConstructor(String word) {
 		
